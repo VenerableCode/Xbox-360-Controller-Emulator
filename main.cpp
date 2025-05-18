@@ -97,17 +97,13 @@ int main() {
         if (IsKeyPressed(VK_RIGHT)) {
             report.sThumbRX = XBOX_THUMB_MAX;
         }
-
-
-
-
         
         if (IsKeyPressed(VK_SHIFT)) {
-            report.wButtons |= XUSB_GAMEPAD_RIGHT_THUMB; //crouch
+            report.wButtons |= XUSB_GAMEPAD_RIGHT_THUMB;
         }
 
         if (IsKeyPressed(VK_SPACE)) {
-            report.wButtons |= XUSB_GAMEPAD_A; //jump
+            report.wButtons |= XUSB_GAMEPAD_A;
         }
 
         if (IsKeyPressed('E')) {
