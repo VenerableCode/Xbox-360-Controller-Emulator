@@ -1,8 +1,6 @@
 #include <Windows.h>
 #include "ViGEmClient.h"
 #include <iostream>
-#include <algorithm>
-#include <cmath>
 
 bool running = true;
 
@@ -60,7 +58,6 @@ int main() {
     std::cout << "Shift        = Right Thumbstick Press (R3)" << std::endl;
     std::cout << "Enter        = Right Trigger (RT)" << std::endl;
     std::cout << "Backspace    = Left Trigger (LT)" << std::endl;
-    std::cout << "Ctrl + Q     = Exit Emulator" << std::endl;
     std::cout << std::endl;
 
 
