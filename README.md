@@ -10,4 +10,4 @@ A basic Xbox 360 controller emulator using [ViGEmBus](https://github.com/nefariu
 
 ## Usage
 
-Build the project, then place `ViGEmClient.dll` in the build directory.
+Setup/Build project, place `ViGEmClient.dll` in the `X360ControllerEmulator.exe` build directory.
