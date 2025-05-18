@@ -4,7 +4,8 @@ A basic Xbox 360 controller emulator using [ViGEmBus](https://github.com/nefariu
 
 ## Requirements
 
-- [ViGEmBus](https://github.com/nefarius/ViGEmBus) driver + `ViGEmClient.dll`
+- [ViGEmBus](https://github.com/nefarius/ViGEmBus) driver
+- [ViGEmClient](https://github.com/nefarius/ViGEmClient) `ViGEmClient.dll` 
 - [Xenia](https://github.com/xenia-project/xenia) (Xbox 360 emulator)
 - Windows 10 or later
 
